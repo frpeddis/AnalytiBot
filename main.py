@@ -4,6 +4,7 @@ import openai
 import chainlit as cl
 import re
 import chardet
+import streamlit as st
 
 system_prompt = """You are a great assistant at python data visualization creation.  You should create: the code for the data visualization in python using pandas and mathplotlib of a dataframe called "df".
 Besides, Here are some requirements:
