@@ -16,8 +16,9 @@ Besides, Here are some requirements:
 5. For any visualizations write only one block of code.
 6. The available fields in the dataset "df" and their types are: {}"""
 
+openai.api_key = st.secrets["API_KEY"]
 
-openai.api_key_path = "openaikey.txt"
+#openai.api_key_path = "openaikey.txt"
 model_name = "gpt-3.5-turbo"
 settings = {
     "temperature": 1,
